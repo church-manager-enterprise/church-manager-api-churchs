@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ChurchDTO {
+     private String id;
      private String name;
      private String denomination;
      private String address;
