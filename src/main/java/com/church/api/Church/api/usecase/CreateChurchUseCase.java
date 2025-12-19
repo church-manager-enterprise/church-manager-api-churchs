@@ -13,6 +13,8 @@ public class CreateChurchUseCase {
 
     @Autowired
     private ChurchRepository repository;
+    
+    @Autowired
     private ChurchMapper mapper;
 
     public ChurchDTO execute(ChurchRequest request){

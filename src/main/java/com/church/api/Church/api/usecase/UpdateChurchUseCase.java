@@ -13,6 +13,8 @@ public class UpdateChurchUseCase {
 
     @Autowired
     private ChurchRepository repository;
+    
+    @Autowired
     private ChurchMapper mapper;
 
     public ChurchDTO execute(String id, ChurchRequest request) {

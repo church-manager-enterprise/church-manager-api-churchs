@@ -18,7 +18,7 @@ public class Church {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "id", updatable = false, nullable = false)
+    @Column(name = "id", updatable = false, nullable = false, length = 36)
     private String id;
 
     @Column(nullable = false, length = 150)

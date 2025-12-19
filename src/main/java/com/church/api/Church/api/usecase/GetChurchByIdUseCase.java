@@ -11,6 +11,8 @@ public class GetChurchByIdUseCase {
 
     @Autowired
     private ChurchRepository repository;
+    
+    @Autowired
     private ChurchMapper mapper;
 
     public ChurchDTO execute(String id) {
